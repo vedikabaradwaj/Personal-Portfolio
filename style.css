@@ -1,0 +1,79 @@
+#introduction{
+	background:#EAEAEA  ;
+}
+*{
+	margin:0px;
+	padding:0px;
+	border:0;
+	outline:0;
+}
+body{
+	font-family:"Quattrocento Sans", sans-serif;
+}
+#headerinfo{
+	padding:40px;
+	padding-left: 50px;
+	width: 700px;
+	display:inline-block;
+	position:absolute;
+	bottom: 300px;
+
+}
+#hdrimg{
+
+}
+#menu{
+	list-style: none;
+}
+#menu li {
+	display: inline;
+	margin: 8px
+
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	letter-spacing: 5px;
+}
+#navigation{
+	text-align: center;
+	padding: 12px;
+	position: sticky;
+    top: 0;
+    background: white;
+    z-index: 99;
+}
+h1, h2, h3{font-family:"Montserrat"
+
+}
+
+}
+#menu li:hover{background:whitesmoke
+}
+#projects{
+	padding: 20px;
+	text-align:center;
+
+}
+#projects  h1{
+	font-size: 40px;
+}
+.project-card{
+	height: 320px;
+	width: 300px;
+	box-shadow: 10px 10px #eee;
+	transition: all 100ms ease-in;
+	display: inline-block;
+	margin: 18px;
+	
+}
+.project-card:hover{
+	transform: translateX(20px);
+}
+
+.img1{
+	width: 100%;
+	max-height: 50%;
+	object-fit:cover;
+	
+}
